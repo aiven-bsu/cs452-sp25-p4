@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <unistd.h>
+#include <getopt.h> /* Ensure getopt and optarg are properly declared */
 #include <stdbool.h>
 #include <time.h>
 #include <sys/time.h> /* for gettimeofday system call */
@@ -222,3 +223,12 @@ int main(int argc, char *argv[])
 
      return 0;
 }
+
+
+// #include <stdio.h>
+// #include <stdlib.h>
+
+// int main(void) {
+//      printf("Hello, World!\n");
+//      return 0;
+// }
